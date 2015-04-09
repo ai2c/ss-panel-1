@@ -15,7 +15,7 @@ $togb = $tomb*1024;
 define('DB_HOST','localhost');
 define('DB_USER','shadowsocks');
 define('DB_PWD','password');
-define('DB_DBNAME','db');
+define('DB_DBNAME','shadowsocks');
 define('DB_CHARSET','utf8');
 define('DB_TYPE','mysql'); 
 /*
