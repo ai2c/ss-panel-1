@@ -49,8 +49,8 @@ if(!empty($_POST)){
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            用户中心
-            <small>User Panel</small>
+            修改资料
+            <small>Profile Update</small>
         </h1>
     </section>
     <!-- Main content -->
