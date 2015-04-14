@@ -67,7 +67,7 @@ if(!empty($_POST)){
                     <form role="form" name="edit" method="post" action="profile_update.php" onsubmit="return check()">
                         <div class="box-body">
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="当前密码(必填)" name="nowpassword">
+                                <input type="password" class="form-control" placeholder="当前登录网站的密码(必填)" name="nowpassword">
                             </div>
 
                             <div class="form-group">
