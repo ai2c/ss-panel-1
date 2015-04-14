@@ -40,19 +40,6 @@
                         <i class="fa  fa-pencil"></i> <span>修改资料</span>
                     </a>
                 </li>
-
-                <li  >
-                    <a href="invite.php">
-                        <i class="fa fa-users"></i> <span>邀请好友</span>
-                    </a>
-                </li>
-
-                <li  >
-                    <a href="code.php">
-                        <i class="fa fa-user"></i> <span>公共邀请</span>
-                    </a>
-                </li>
- 
             </ul>
         </section>
         <!-- /.sidebar -->
