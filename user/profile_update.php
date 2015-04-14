@@ -61,7 +61,7 @@ if(!empty($_POST)){
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header">
-                        <h3 class="box-title">面板用户信息修改</h3>
+                        <h3 class="box-title">用户信息修改</h3>
                     </div><!-- /.box-header -->
                     <!-- form start -->
                     <form role="form" name="edit" method="post" action="profile_update.php" onsubmit="return check()">
