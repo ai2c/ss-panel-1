@@ -50,7 +50,7 @@ $unix_time = $oo->get_last_unix_time();
                             <h3 class="box-title">公告&FAQ</h3>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                            
+                        <h4><p>私人分享 请勿外传</p></h4>    
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->
