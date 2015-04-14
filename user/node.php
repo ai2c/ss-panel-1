@@ -34,8 +34,7 @@ include_once 'lib/slidebar_left.inc.php';
                     </div><!-- /.box-header -->
                     <div class="box-body">
                         <div class="callout callout-warning">
-                            <h4>注意!</h4>
-                            <p>请勿在任何地方公开节点地址！</p>
+                            <h4>私人分享 请勿外传</h4>
                         </div><?php
                         $node0 = $node->get_node_array(0);
                         foreach($node0 as $row){
