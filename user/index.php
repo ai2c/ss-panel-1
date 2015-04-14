@@ -44,17 +44,21 @@ $unix_time = $oo->get_last_unix_time();
     <section class="content">
             <!-- START PROGRESS BARS -->
             <div class="row">
+            
                 <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
-                            <h3 class="box-title">公告&FAQ</h3>
+                            <h3 class="box-title">连接信息</h3>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                        <h4><p>私人分享 请勿外传</p></h4>    
+                            <p> 端口: <code><?php echo $oo->get_port();?></code> </p>
+                            <p> 密码: <?php echo $oo->get_pass();?> </p>
+                            <p> 套餐: <span class="label label-info"> <?php echo $oo->get_plan();?> </span> </p>
+                            <p> 最后使用时间: <code><?php echo date('Y-m-d H:i:s',$unix_time);  ?></code> </p>
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->
-
+                
                 <div class="col-md-6">
                     <div class="box box-solid">
                         <div class="box-header">
@@ -73,37 +77,6 @@ $unix_time = $oo->get_last_unix_time();
                     </div><!-- /.box -->
                 </div><!-- /.col (left) -->
 
-              <div class="col-md-6">
-                    <div class="box box-solid">
-                        <div class="box-header">
-                            <h3 class="box-title">签到获取流量</h3>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                            <p> 24小时内可以签到一次 </p>
-                            <?php  if($oo->is_able_to_check_in())  { ?>
-                            <p><a class="btn btn-success" href="docheckin.php">签到</a> </p>
-                            <?php  }else{ ?>
-                            <p><a class="btn btn-success disabled" href="#">不能签到</a> </p>
-                            <?php  } ?>
-                            <p>上次签到时间<code><?php echo date('Y-m-d H:i:s',$oo->get_last_check_in_time());?></code></p>
-                        </div><!-- /.box-body -->
-                    </div><!-- /.box -->
-                </div><!-- /.col (right) -->
-              
-
-                <div class="col-md-6">
-                    <div class="box box-solid">
-                        <div class="box-header">
-                            <h3 class="box-title">连接信息</h3>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                            <p> 端口: <code><?php echo $oo->get_port();?></code> </p>
-                            <p> 密码: <?php echo $oo->get_pass();?> </p>
-                            <p> 套餐: <span class="label label-info"> <?php echo $oo->get_plan();?> </span> </p>
-                            <p> 最后使用时间: <code><?php echo date('Y-m-d H:i:s',$unix_time);  ?></code> </p>
-                        </div><!-- /.box-body -->
-                    </div><!-- /.box -->
-                </div><!-- /.col (right) -->
             </div><!-- /.row -->
             <!-- END PROGRESS BARS -->
     </section><!-- /.content -->
